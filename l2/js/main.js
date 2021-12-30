@@ -19,3 +19,7 @@ form.onsubmit = (event) => {
         printResult(dateDiff);
     }
 };
+
+import { chunk } from 'lodash';
+
+console.log(chunk(['a', 'b', 'c', 'd'], 2));
